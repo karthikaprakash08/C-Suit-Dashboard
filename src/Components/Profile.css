@@ -1,0 +1,100 @@
+/* src/components/Profile.css */
+
+.profile-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  padding: 20px;
+  width: 900px;
+  justify-content: center;
+  /* display: flex; */
+  margin: auto;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.image-upload {
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  opacity: 0;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.profile-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.profile-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-details label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #8949FF;
+}
+
+.profile-details input,
+.profile-details textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.profile-details input:disabled,
+.profile-details textarea:disabled {
+  background-color: #fff;
+}
+
+.profile-details textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.profile-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.profile-actions button {
+  background-color: #8949FF;
+  border: #f9f9f9;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.profile-actions button:hover {
+  background-color: #9a64ae;
+}

@@ -1,0 +1,36 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    
+  }
+  
+  .welcome-message {
+    max-width: 50%;
+  }
+  
+  .welcome-message h1 {
+    margin: 0;
+    color: #fff;
+  }
+  
+  .welcome-message p {
+    color: #636e72;
+  }
+  
+  .welcome-message button {
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .calendar {
+    width: 300px;
+  }
+  

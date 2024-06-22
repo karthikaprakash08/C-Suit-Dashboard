@@ -1,0 +1,129 @@
+/* src/components/Dashboard.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 250px; 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 80%;
+  /* margin-top: 20px; */
+}
+
+.header-part{
+  display: flex;
+  gap: 20px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header {
+  flex: 1;
+  background-image: url('../../public/images/welcomebg.jpg');
+  background-size: cover; /* Ensures the image covers the whole background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-message {
+  max-width: 70%;
+}
+
+.welcome-message h1 {
+  margin: 0;
+  color: #fff;
+}
+
+.welcome-message p {
+  color: #000000;
+  width: 70%;
+}
+
+.welcome-message button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #fcfcfc;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-top: 10px;
+  font-size: 16px;
+  animation: all 3s ease-in-out;
+}
+
+.welcome-message button:hover{
+  border: none;
+  background: #8949FF;
+}
+
+.custom-calendar {
+  margin-left: auto; 
+  width: 280px;
+  height: 280px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-area {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
+
+.statistics {
+  flex: 3;
+  display: flex;
+  gap: 20px;
+}
+
+.time-spent,
+.completion {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.chart {
+  margin-top: 20px;
+}
+
+.course-list {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course h4 {
+  margin: 0;
+  color: #55efc4;
+}
+
+.course p {
+  color: #636e72;
+}
